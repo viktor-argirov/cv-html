@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "poppins-bold";
+    src: url(./poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "poppins-light";
+    src: url(./poppins/Poppins-Light.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    font-family: "poppins-bold";
+
+}
+
+
+/* En tête */
+
+.header1 {
+    background-color: rgba(51, 52, 52, 0.613);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+.header1 img {
+    margin-left: 90px;
+}
+.header .presentation {
+    padding: 40px;
+}
+.header .presentation h1 {
+    font-size: 4rem;
+}
+.header .presentation h2 {
+    font-size: 3rem;
+}
+.header .presentation h3 {
+    font-size: 2rem;
+}
+.header .presentation p {
+    font-size: 1.4rem;
+}
+
+/*  Central */
+span {
+    position: absolute;
+    background-color: black;
+    width: 80px;
+    height: 6px;
+}
+.central {
+    font-family: "poppins-light";
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.central h1 {
+    font-size: 2rem;
+}
+
+/*  Central gauche */
+
+.div1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.div1 h2 {
+    margin-left: 10px;
+}
+.div1 img {
+    display: block;
+}
+.div2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.div2 h2 {
+    margin-left: 10px;
+}
+
+/* central droit */
+.central_droit {
+    background-color: rgba(25, 154, 111, 0.436);
+    width: 1000px;
+    padding: 0 50px;
+}
+
+li {
+    margin-left: 30px;
+}
