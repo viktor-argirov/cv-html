@@ -1,49 +1,39 @@
-@font-face {
-    font-family: "poppins-bold";
-    src: url(./poppins/Poppins-Bold.ttf);
-}
-
-@font-face {
-    font-family: "poppins-light";
-    src: url(./poppins/Poppins-Light.ttf);
-}
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-body {
-    font-family: "poppins-bold";
-
-}
-
-
 /* En tête */
 
-.header1 {
-    background-color: rgba(51, 52, 52, 0.613);
-    color: white;
+.header1
+ {
+    background-color: rgba(6, 83, 93, 0.856);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-items: center;
 }
-.header1 img {
-    margin-left: 90px;
+.header1 img
+{
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+
 }
-.header .presentation {
+.header .presentation 
+{
     padding: 40px;
 }
-.header .presentation h1 {
+.header .presentation h1 
+{
     font-size: 4rem;
 }
-.header .presentation h2 {
+.header .presentation h2 
+{
     font-size: 3rem;
 }
-.header .presentation h3 {
+.header .presentation h3 
+{
     font-size: 2rem;
 }
-.header .presentation p {
+.header .presentation p 
+{
     font-size: 1.4rem;
 }
 
@@ -54,42 +44,46 @@ span {
     width: 80px;
     height: 6px;
 }
-.central {
-    font-family: "poppins-light";
+.central 
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
     margin-top: 10px;
 }
-.central h1 {
+.central h1 
+{
     font-size: 2rem;
 }
 
 /*  Central gauche */
 
-.div1 {
+.div1 
+{
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.div1 h2 {
+.div1 h2 
+{
     margin-left: 10px;
 }
-.div1 img {
-    display: block;
-}
-.div2 {
+.div2 
+{
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.div2 h2 {
+.div2 h2 
+{
     margin-left: 10px;
 }
 
 /* central droit */
-.central_droit {
-    background-color: rgba(25, 154, 111, 0.436);
+.central_droit 
+{
+    background-color: rgba(62, 225, 225, 0.436);
     width: 1000px;
     padding: 0 50px;
 }
